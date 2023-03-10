@@ -1,0 +1,35 @@
+<h1>Add Subject Form</h1>
+<form id="subjectForm" action="AddSubject" method="post">
+	<table>
+		<tr>
+			<td>Subject Code:</td>
+			<td><input id="subjectId" type="text" name="subjectCode"
+				required /></td>
+		</tr>
+		<tr>
+			<td>Subject Name:</td>
+			<td><input type="text" name="subjectName" required /></td>
+		</tr>
+		<tr>
+			<td>Branch:</td>
+			<td><select id="branchId" name="branchId" /></td>
+		</tr>
+		<tr>
+			<td>Semester:</td>
+			<td><select name="semester">
+					<option>1</option>
+					<option>2</option>
+					<option>3</option>
+					<option>4</option>
+					<option>5</option>
+					<option>6</option>
+					<option>7</option>
+					<option>8</option>
+			</select></td>
+		</tr>
+		<tr>
+			<td colspan="2" align="center"><input type="submit"
+				class="btn btn-default" value="Save Subject" /></td>
+		</tr>
+	</table>
+</form>
